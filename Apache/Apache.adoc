@@ -135,3 +135,13 @@ You have now gotten a good view of Apache. You should understand the folder and 
 
 = Stop your instances at this point. 
 
+Great job! You are done with this lab (8/10). Remember to take screenshots and provide narrative for each. This is really important for your submissions. A few notes: 
+
+- Remember to add the additional component for another point (9/10)
+- Remember to add  your experiences and difficulties for another point (10/10)
+- Make sure that your screenshots are readable. Sometimes people provide really low quality images or the images simply have too much information, making it hard to see what is going on. 
+- Make sure to submit your assignment as a SINGLE PDF. This is really important and I won't grade your assignment if you submit it in any other way. Again, SINGLE PDF. 
+- Include your name in your PDF. Sometimes I download the entire class set of submissions and work off of my local machine. If you don't include your name, it's pretty hard for me to figure out who completed the submission 
+
+If you have any questions, please don't hesitate to reach out to me. I'm happy to help. 
+
