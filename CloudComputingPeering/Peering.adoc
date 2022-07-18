@@ -53,7 +53,7 @@ image::vpc3.png[Subnet Details]
 Now create a route. The route will define where traffic can and can't flow in the VPC/subnet. Click Route Tables on the left side and then click Create route table. 
 
 .Create Route Table
-image::6.png[Create Route Table]
+image::vpc4.png[Create Route Table]
 
 {nbsp} +
 {nbsp} +
@@ -61,7 +61,7 @@ image::6.png[Create Route Table]
 Like the subnet, assign the route table to a VPC. Pretty easy. 
 
 .Route Table Details
-image::7.png[Route Table Details]
+image::vpc5.png[Route Table Details]
 
 {nbsp} +
 {nbsp} +
