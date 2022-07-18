@@ -26,7 +26,7 @@ image::2b.png[Create VPCb]
 From there, name the VPC. In the CIDR block, put some block of local addresses. In this case I put a relatively small block of addresses. 
 
 .VPC Settings
-image::3a.png[VPC Settings]
+image::vpc1.png[VPC Settings]
 
 .VPC Settings
 image::3b.png[VPC Settingsb]
