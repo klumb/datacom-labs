@@ -45,7 +45,7 @@ image::4.png[Create Subnet]
 In the create subnet screen, fill out the appropriate details. In this case, assign the subnet to the VPC that you just created. Also, In this example, the subnet is the size of the VPC (the blocks are the same size). 
 
 .Subnet Details
-image::5.png[Subnet Details]
+image::vpc3.png[Subnet Details]
 
 {nbsp} +
 {nbsp} +
