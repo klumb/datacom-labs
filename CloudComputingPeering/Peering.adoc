@@ -77,7 +77,7 @@ image::8.png[Internet Gateway]
 Name the Internet Gateway and click Create! 
 
 .Internet Gateway Details
-image::9.png[Internet Gateway Details]
+image::vpc6.png[Internet Gateway Details]
 
 {nbsp} +
 {nbsp} +
