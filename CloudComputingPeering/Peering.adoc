@@ -180,7 +180,9 @@ image::vpc17.png[Seeing Peering Connection]
 That's it. The video should help too. I do have two questions I'd like you to also answer for this lab: 
 
 1) What is peering?{nbsp} +
-2) Draw me a picture of what has been designed here (the final design and not the process). This should include a VPCs, subnets, and any number-details that help me understand the design that was just created. 
+2) What did we just do? Draw me a picture of what you have built here (the final design and not the process). This should include the VPCs, subnets, and any number-details that help me understand the design that was just created. 
+
+HINT: This is a fairly high level start to what I think your diagram could look like or your drawing could look like. I would like some more specificity in your drawing such as what what are the CIDR blocks that are being used for the VPCs and for the subnets? What are the route tables that are associated with this peering exercise? What is the internet gateway? Is it associated with a subnet? Is it associated with a VPC? Is there an address associated with it? What is that? Same with peering. 
 
 image::Screen%20Shot%202022-06-27%20at%2011.20.25%20AM.png[Starter Image]
 
