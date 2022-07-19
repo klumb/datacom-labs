@@ -91,7 +91,7 @@ image::9a.png[Associate Internet Gateway with VPC]
 {nbsp} +
 
 .Associate Internet Gateway with VPC
-image::9b.png[Associate Internet Gateway with VPC]
+image::vpc7.png[Associate Internet Gateway with VPC]
 
 {nbsp} +
 {nbsp} +
@@ -99,13 +99,13 @@ image::9b.png[Associate Internet Gateway with VPC]
 Now return to your Route Table and add the newly created Internet Gateway. 
 
 .Add Internet Gateway to Route Table
-image::10.png[Add Internet Gateway]
+image::vpc8.png[Add Internet Gateway]
 
 {nbsp} +
 {nbsp} +
 
 .Add Internet Gateway to Route Table
-image::11.png[Add Internet Gateway]
+image::vpc9.png[Add Internet Gateway]
 
 {nbsp} +
 {nbsp} +
@@ -113,15 +113,15 @@ image::11.png[Add Internet Gateway]
 You're now ready to create the Peering Connection! Click Peering Connections on the left and then Create Peering Connection on the top. The large numbers you see there are the things you are going to need to set up the peering conneciton
 
 .Create Peering Connection
-image::12.png[Create Peering Connection]
+image::vpc10.png[Create Peering Connection]
 
 {nbsp} +
 {nbsp} +
 
-Here are the details of the Create Peering Connection page. These should be pretty straightforward. Basically, you are connecting your VPC to my VPC. The details in the bottom must be exactly as they are in this picture
+Here are the details of the Create Peering Connection page. These should be pretty straightforward. Basically, you are connecting your VPC to my VPC. The details in the bottom text boxes (framed green) must be exactly as they are in this picture for your setup. This is a VPC I set up on a different account for you to connect to
 
 .Peering Details
-image::13.png[Peering Details]
+image::vpc11.png[Peering Details]
 
 {nbsp} +
 {nbsp} +
@@ -129,7 +129,7 @@ image::13.png[Peering Details]
 Once, you finalize the details, you should see a banner like this: 
 
 .Peering Request
-image::21.png[Peering Request]
+image::vpc12.png[Peering Request]
 
 {nbsp} +
 {nbsp} +
@@ -141,25 +141,25 @@ What's intersting here is that there are two VPCs. Yours and mine. They are trul
 YOU ARE DONE AT THIS POINT! But let me demonstrate what I mean by the above statements about peering. If I were to accept your peering request, you could add the newly created Peering Connection to your list of routes and 2) ensure that your route table is aligned with my subnet. 
 
 .Add Peering Connection to Routes
-image::14.png[Add Peering Connection to Routes]
+image::vpc13.png[Add Peering Connection to Routes]
 
 {nbsp} +
 {nbsp} +
 
 .Add Peering Connection to Routes
-image::15.png[Add Peering Connection to Routes]
+image::vpc14.png[Add Peering Connection to Routes]
 
 {nbsp} +
 {nbsp} +
 
 .Associate Route Table with Subnet
-image::16.png[Associate Route Table with Subnet]
+image::vpc15.png[Associate Route Table with Subnet]
 
 {nbsp} +
 {nbsp} +
 
 .Associate Route Table with Subnet
-image::17.png[Associate Route Table with Subnet]
+image::vpc16.png[Associate Route Table with Subnet]
 
 {nbsp} +
 {nbsp} +
@@ -172,7 +172,7 @@ At this point, the two VPCs are truly connected with each other. In context to t
 If (when) I accept the peering request, I will now see it as Active. If I don't accept the request in time, I'll see a red status marker and it'll say something like timeout. 
 
 .Seeing Peering Connection
-image::19.png[Seeing Peering Connection]
+image::vpc17.png[Seeing Peering Connection]
 
 {nbsp} +
 {nbsp} +
